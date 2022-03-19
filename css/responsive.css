@@ -1,0 +1,184 @@
+@media screen and (max-width:1300px) and (min-width:768px) {
+
+    /*=== SMALL DISH AREA ===*/
+    #small-dish .dish-Plates .img-box p br {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1140px) {
+
+    /*=== HEADER  AREA ===*/
+    .header-area .logo,
+    .header-area p,
+    .header-area button {
+        margin-left: 5.5rem;
+    }
+
+    /*=== PIZZA AREA ===*/
+    #pizza-area::before {
+        top: -15%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    /*=== SMALL DISH AREA ===*/
+    #small-dish .inner-small-dish {
+        padding: 0 11rem;
+    }
+
+    #discount-area .inner-discount .bottom-side .disscount-text {
+        max-width: 53.8rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+
+    /*=== PIZZA AREA ===*/
+    #pizza-area::after {
+        background-size: 60%;
+        background-position: bottom;
+        bottom: -16%;
+    }
+
+    /*=== FOOTER AREA ===*/
+    #footer {
+        padding: 33.6rem 4.5rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    /*=== DISCOUNT AREA ===*/
+    #discount-area .inner-discount .bottom-side,
+    #discount-area .inner-discount .top-side {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    }
+
+    #discount-area .inner-discount .img-box {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    #discount-area .inner-discount .img-box img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #discount-area .inner-discount .bottom-side .disscount-text,
+    #discount-area .inner-discount .top-side .disscount-text {
+        max-width: 53.8rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    #discount-area .inner-discount .bottom-side .img-box {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    /*=== PIZZA AREA ===*/
+    #pizza-area {
+        min-height: 108.4rem;
+    }
+
+    #pizza-area::after {
+        content: "";
+        background-image: url(../img/food-home/full-pizza.png);
+        background-size: 90%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        overflow: visible;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    /*=== PIZZA AREA ===*/
+    #pizza-area::after {
+        background-position: bottom;
+        bottom: -16%;
+    }
+
+    /*=== TITLE-AREA ===*/
+    #title-area::after {
+        bottom: -18%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*=== SMALL DISH AREA ===*/
+    #small-dish .top-paragraph br {
+        display: none;
+    }
+
+    /*=== SMALL DISH AREA ===*/
+    #small-dish .dish-Plates .img-box {
+        max-width: 360px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*=== PIZZA AREA ===*/
+    #pizza-area {
+        min-height: 108.4rem;
+    }
+
+    #pizza-area::before {
+        top: -7%;
+    }
+
+    #pizza-area::after {
+        background-position: bottom;
+        bottom: -11%;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    /*=== TITLE AREA ===*/
+
+    #title-area .inner-title form input {
+        padding: 1.2rem 2.6rem;
+    }
+
+    #title-area .inner-title form button {
+        padding: 1.2rem 2.6rem;
+        max-width: 19.2rem;
+    }
+}
